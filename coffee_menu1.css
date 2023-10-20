@@ -1,0 +1,153 @@
+@font-face {
+    font-family: Fonts;
+    src: url(../Fonts/GreatVibes-Regular.ttf);
+}
+
+@font-face {
+    font-family: kalam;
+    src: url(../Fonts/Kalam-Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding: 15rem;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(165, 77, 42);
+}
+
+.navigate {
+    display: flex;
+    justify-content: end;
+    gap: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.des a {
+    text-decoration: none;
+    font-size: larger;
+    color: azure;
+    font-family: 'Playfair Display';
+}
+
+.des a:hover {
+    text-decoration: underline;
+    color: rgb(221, 255, 0);
+}
+
+.img {
+    margin-right: 650px;
+}
+
+.menu h1 {
+    text-align: center;
+    font-family: Fonts;
+    font-size: 70px;
+}
+
+.webpage .nav {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.nav .bar a {
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.nav .bar a:hover {
+    background-color: black;
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+hr {
+    border: 2px solid black;
+}
+
+.web {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+    background-color:rgb(165, 77, 42); 
+    padding: 20px 0px 0px 0px;
+}
+
+.heading {
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: kalam;
+    text-align: center;
+    font-size: 40px;
+}
+
+.top_content .col1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.col1 .items {
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.login {
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    left: 0;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    border-radius: 20px;
+    font-size: 2rem;
+    color: whitesmoke;
+    display: flex;
+    z-index: -1;
+}
+
+.login a {
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+    color: white;
+    background-color: #fe8100;
+    border-radius: 20px;
+}
+
+.login .contents {
+    margin: 30px 30px;
+    font-size: 20px;
+}
+
+.items:hover .login {
+    z-index: 1;
+    margin: none;
+    outline: none;
+}
+
+.line {
+    border: 1px solid whitesmoke;
+    margin-top: 20px;
+}

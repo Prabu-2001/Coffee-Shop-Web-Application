@@ -1,0 +1,87 @@
+@font-face{
+    font-family:rye;
+    src: url(../Fonts/Rye-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+}
+video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+@media (min-aspect-ratio:16/9)
+{
+    video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio:16/9)
+{
+    video{
+        width: auto;
+        height: 100%;
+    }
+}
+.heading{
+    margin-top: 200px;
+    margin-left: 150px;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    font-family:Rye;
+}
+span{
+    color: red;
+}
+span:hover{
+    color: rgb(0, 183, 255);
+}
+.navigate{
+    display: flex;
+    justify-content: end;
+    gap: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.des a{
+    text-decoration: none;
+    font-size: larger;
+    color: azure;
+    font-family:'playfair Display';  
+}
+.des a:hover{
+    text-decoration:underline;
+    color: orangered;
+}
+img{
+    margin-right: 650px;
+}
+button{
+    font-size: large;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(25, 105, 174);
+    color: rgb(250, 251, 251);
+}
+.b1{
+    margin-left: 200px;
+}
+.b2{
+    margin-left: 20px;
+}

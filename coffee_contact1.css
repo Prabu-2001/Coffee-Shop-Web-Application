@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Fonts;
+    src: url(../Fonts/GreatVibes-Regular.ttf);
+}
+@font-face {
+    font-family: great;
+    src: url(../Fonts/GreatVibes-Regular.ttf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-padding: 15rem;
+    scroll-behavior: smooth;
+}
+body {
+    background-color: rgb(165, 77, 42);
+}
+.navigate {
+    display: flex;
+    justify-content: end;
+    gap: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+.des a {
+    text-decoration: none;
+    font-size: larger;
+    color: azure;
+    font-family: 'Playfair Display';
+}
+
+.des a:hover {
+    text-decoration: underline;
+    color: rgb(221, 255, 0);
+}
+
+.img {
+    margin-right: 650px;
+}
+
+.menu h1 {
+    text-align: center;
+    font-family: Fonts;
+    font-size: 70px;
+}
+.icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+i{
+    font-size: 50px;
+    padding: 20px;
+}
+i:hover{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 50%;
+    transition: 1s ease-in-out;
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: red;
+    font-family: great;
+    font-size: 50px;
+}
+input{
+    margin-top:20px ;
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    padding-left: 20px;
+}
+input::placeholder{
+    color: black;
+}
+.mes{
+    padding-bottom: 50px;
+    height: 100px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-top:12px ;
+    border-radius: 10px;
+}
+button:hover{
+    color: orange;
+    text-decoration: underline;
+}
+form{
+    border: 1px solid black;
+    padding: 30px 40px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgba(0,0, 0, .5);
+}
+
+
+
+
